@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<title>Whitefox GameDev</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+<link rel="stylesheet" href="./fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2019.css">
+
+<style>
+body, h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight:bold;
+  }
+.w3-row-padding img {margin-bottom: 12px}
+.w3-sidebar {width: 120px;background: #222;}
+#main {margin-left: 120px}
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+.procent{
+  background-color :#900c3f;
+}
+
+.credit{
+  color: white;
+}
+
+.credit:hover{
+  color :#900c3f;
+  background-color: #111;
+}
+
+.credit-rev:hover{
+  color:white;
+
+}
+
+.jocuri{
+  padding:20px 20px 20px 20px;
+}
+
+#particles-js canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.informatie{
+  width:600px;
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.infocon{
+  color:#bebebe;
+}
+
+
+</style>
+
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-animate-opacity ">
+  <!-- Avatar image in top left corner -->
+  <br>
+  <a href="#" class="w3-bar-item w3-button w3-hover-white" >
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p >HOME</p> 
+  </a><i class="	fa fa-angle-double-down"></i> <br><br>
+  <a href="#about" class="w3-bar-item w3-button w3-hover-white">
+    <i class="fa fa-user w3-xxlarge" style="color :#900c3f;"></i>
+    <p>ABOUT</p> 
+  </a><i class="	fa fa-angle-double-down"></i> <br><br>
+  <a href="#games" class="w3-bar-item w3-button w3-hover-white">
+    <i class="fas fa-gamepad w3-xxlarge" style="color :#900c3f;"></i>
+    <p>GAMES</p> 
+  </a><i class="	fa fa-angle-double-down"></i> <br><br>
+  <a href="#contact" class="w3-bar-item w3-button w3-hover-white ">
+    <i class="fa fa-envelope w3-xxlarge" style="color :#900c3f;"></i>
+    <p>CONTACT</p> 
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small w3-animate-opacity">
+    <a href="#" class="w3-bar-item w3-button " style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#games" class="w3-bar-item w3-button" style="width:25% !important">GAMES</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home --> 
+ 
+
+  <header class="w3-container w3-padding-32 w3-center " id="home">
+   
+    <h1 class="w3-jumbo w3-animate-zoom "><span class="w3-hide-small">I'm</span> Whitefox</h1>
+    <p>Game Developer</p>
+    <hr  style="width:1500px; color:white;">
+
+    <section id="particles-js" class="w3-opacity">  
+      <script src="particles.js"></script>
+      <script src="app.js"></script>
+    </section>
+  </header>
+  
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
+    <h2 class="w3-text" style="color:white">Who am I?</h2>
+    <hr style="width:200px" style="color:white;">
+    <p>I am a beginner Game Developer at @RiotGames. I love MOBA games especially League of Legends, I have played it for several years and now I want to improve it.</p>
+    <p>Laptop : Acer</p>
+    <p>Software : Unity, JS</p>
+    <h3 class="w3-padding-16 w3-text" style="color:white">My Skills</h3>
+    <p class="w3-wide">Game Programming</p>
+    <div class="w3-white">
+      <div class="procent" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Game Design</p>
+    <div class="w3-white">
+      <div class="procent" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Artificial Intelligence</p>
+    <div class="w3-white">
+      <div class="procent" style="height:28px;width:84%"></div>
+    </div><br>
+    <br>
+    <div class="w3-row w3-center w3-section w3-light-grey w3-hover-black">
+   
+        <div class="w3-quarter w3-section ">
+          <span class="w3-xlarge">3</span><br>
+          Games published on PlayStore
+        </div>
+        <div class="w3-quarter w3-section ">
+          <span class="w3-xlarge">20+</span><br>
+          Articles written
+        </div>
+
+      
+      <div class="w3-quarter w3-section ">
+        <span class="w3-xlarge">1000+</span><br>
+        Happy Gamers
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Conference Papers
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section w3-hover-black">
+      <i class="fa fa-download"></i> Download my CV
+    </button>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section w3-hover-dark-gray">
+        <i class="fa fa-link"></i> See my GitHub repostories
+      </button>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class=" w3-xlarge w3-padding-32" style="background-color: #777777; color: white;">Basic</li>
+          <li class="w3-padding-16">Game Design</li>
+          <li class="w3-padding-16">Game Programming</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 1900</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class=" w3-xlarge w3-padding-32" style="background-color: #900c3f; color: white;">Pro</li>
+          <li class="w3-padding-16">Game Design</li>
+          <li class="w3-padding-16">Game Programming</li>
+          <li class="w3-padding-16">AI modules included</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 3000</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 ">My Reputation</h3>  
+ 
+    <p> <i class="far fa-user"></i> &ensp;<span class="w3-large w3-margin-right">Gabi Mircea</span> boomer at Babeș Bolyai Univ.</p>
+    <p>Whitefox rocks! I'm honoured to have been his AI teacher ^^</p><br>
+    
+    <p><i class="far fa-user "></i> &ensp;<span class="w3-large w3-margin-right">Lazar Ioan</span> game dev teacher at Babeș Bolyai Univ.</p>
+    <p>Name a better game dev than Whitefox, I'm waiting.</p> <br>
+
+    <p><i class="far fa-user"></i> &ensp;<span class="w3-large w3-margin-right">Drew Baye</span> boss at RiotGames</p>
+    <p>Whitefox saved LOL from death. We are deeply grateful for his services and for his collab with us ^^</p>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="games">
+    <h2 class="w3-text-light-grey">My Games </h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <div class="w3-card w3-light-grey jocuri"> <br> 
+          <div class="container">My first game in JS</div> <br><hr>
+        </div> <br>
+        <div class="w3-card w3-light-grey jocuri"><br> 
+          <div class="container">LeagueOptimizer : A LOL Plugin to optimize your champion</div><br><hr></div>
+        
+      </div>
+
+      <div class="w3-half">
+        <div class="w3-card w3-light-grey jocuri"> <br><div class="container">Unlimited Guns </div><br><hr></div> <br>
+      </div>
+    <!-- End photo grid -->
+    </div>
+
+  </div>
+
+
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <div class="w3-row">
+        <div class="w3-card w3-hover-shadow w3-light-grey informatie">
+          <i class="infocon fa fa-map-marker fa-fw w3-animate-zoom w3-xxlarge w3-margin-right">
+            
+          </i>Living in: Cluj-Napoca, Romania <br>&ensp; &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;From: Bistrița, Romania<br></div>
+       <br> <div class="w3-card w3-hover-shadow w3-light-grey informatie">
+          <i class="infocon fa fa-phone fa-fw w3-animate-zoom w3-xxlarge w3-margin-right"></i> 
+          Phone: 0773 830 224
+            </div>
+       <br> 
+       <div class="w3-card w3-hover-shadow w3-light-grey informatie">
+         <i class="infocon fa fa-envelope fa-fw w3-animate-zoom w3-xxlarge w3-margin-right"> 
+
+         </i> Email: mail@mail.com</div>
+      </div>
+      
+      <p></p>
+      <p></p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+      <form class="w3-container w3-card w3-padding-32 w3-white">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input w3-animate-top" style="width:100%;" type="text" required>
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input w3-animate-top" style="width:100%;" type="text" required>
+        </div>
+        <div class="w3-section">
+          <label>Subject</label>
+          <input class="w3-input w3-animate-top" style="width:100%;" type="text" required>
+        </div>
+        <button type="button" class="w3-btn w3-black w3-block w3-hover-dark-gray">Send</button>
+      </form>
+  </div>
+  
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a class="credit-rev"><i class="fab fa-twitch"></i></a>
+    <a class="credit-rev"><i class="fab fa-github "></i></a>
+    <a class="credit-rev"><i class="fab fa-xbox"></i></a>
+    <a class="credit-rev"><i class="fab fa-discord "></i></a>
+    <p class="w3-medium">A webiste powered by <a href="#" target="_blank" class="credit">MeowingPotato Designs</a></p>
+  </footer>
+
+
+</div>
+
+</body>
+</html>
